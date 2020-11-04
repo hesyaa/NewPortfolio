@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.navbar {
+    background-color: #0c7489;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    font-family: montserrat;
+    background-color: red;
+    font-size: 1.1em;
+    border: none;
+}
+
+
+a .navbar-brand {
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li img {
+    height: 110px;
+    border: 1px solid lightgray;
+}
+
+li {
+    padding-bottom: 3em;
+}
+
+a {
+    padding: 0 .6em;
+    color: lightgray !important;
+    font-weight: lighter;
+}
+
+header img {
+    height: 180px;
+    padding: 2em;
+    border: none;
+}
+
+header li {
+    /* border: 1px solid black; */
+    padding: 3em;
+}
+
+ul {
+    display: grid;
+    grid-template-columns:repeat(3, 3fr);
+    list-style-type: none;
+}
+
+a:hover {
+    color: white !important;
+}
+
+.contact h3 {
+    font-weight: lighter;
+}
+
+.button {
+    padding: .5em;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(207, 9, 9);
+    color: white;
+    font-size: 25px;
+    width: 30%;
+    transition: .5s;
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    color: salmon;
+    outline: none;
+}
+
+header {
+    background-image: linear-gradient(to right,#085078 , #85D8CE);
+    width: 104%;
+    margin-top: 2.5em;
+    padding-bottom: 7em;
+    background-size: cover;
+    margin-left: -20px;
+}
+
+.person {
+    height: 80px;
+    padding: .5em;
+}
+
+.navbar-nav a .active {
+    color: white;
+}
+
+.bg-skills {
+    background-color: #e6e6e6;
+    padding-top: 2em;
+    margin-bottom: -18px;
+}
+
+.contact {
+    height: 50vh;
+    padding-top: 4em;
+}
+
+.title {
+    font-size: 3.7em;
+    padding-top: 2em;
+    padding-left: .5em;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.text-pf {
+    font-weight: lighter;
+    color: black;
+}
+
+p {
+   font-size: 1.3em;
+}
+
+.bg-profile {
+    padding-top: 2em;
+    height: 60vh;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    li img {
+        height: 80px;
+        border: 1px solid lightgray;
+    }
+    
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .title {
+        font-size: 2em;
+        padding-right: 1em;
+    }
+
+    .button {
+        width: 70%;
+        padding: .2em;
+    }
+
+    .text-pf {
+        font-size: 2em;
+    }
+
+    li img {
+        height: 60px;
+        border: 1px solid lightgray;
+    }
+
+    .contact h3 {
+        font-size: 25px;
+    }
+
+    .contact p {
+        font-size: 18px;
+    }
+    
+  }
